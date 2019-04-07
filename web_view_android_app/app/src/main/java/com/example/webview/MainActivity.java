@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.getSettings().setDomStorageEnabled(true);
         webView.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
-        webView.loadUrl("https://www.google.com");
+        webView.loadUrl("http://api.sl.se/api2/realtimedeparturesv4.json?key=0a9784133a54422aaa349b4290d6ee80&siteid=1453&timewindow=30");
     }
 }
